@@ -1,0 +1,195 @@
+﻿@model CWFDash.allInternalECN
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>allInternalECN</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ecnnumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ecnnumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.currentpart)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.currentpart)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.oldpart)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.oldpart)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.doctitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.doctitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Expr1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Expr1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.originator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.originator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dateecn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dateecn)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.duedate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.duedate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.changereason)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.changereason)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.complete)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.complete)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.signedby)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.signedby)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Expr2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Expr2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.authseq)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.authseq)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.authtype)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.authtype)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.seq)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.seq)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.flagfinalstep)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.flagfinalstep)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.authuser2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.authuser2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.authuser3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.authuser3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.authuser1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.authuser1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.approvaltype)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.approvaltype)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.stepdescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.stepdescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Expr3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Expr3)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
